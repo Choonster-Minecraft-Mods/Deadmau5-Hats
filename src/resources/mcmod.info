@@ -1,0 +1,23 @@
+[  
+   {  
+      "modid":"deadmau5hats",
+      "name":"Deadmau5 Hats",
+      "description":"Adds basic Deadmau5 Hats.",
+      "version":"1.0.0.0",
+      "mcversion":"1.8.9",
+      "url":"http://www.darkhax.net",
+      "updateUrl":"",
+      "authorList":[  
+         "Darkhax"
+      ],
+      "credits":"Deadmau5 for inspiration",
+      "logoFile":"",
+      "screenshots":[  
+
+      ],
+      "parent":"",
+      "dependencies":[  
+
+      ]
+   }
+]
