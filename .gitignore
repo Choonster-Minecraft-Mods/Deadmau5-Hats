@@ -5,6 +5,7 @@
 *.iws
 out/
 .idea/
+classes/
 
 #ForgeGradle
 build/
