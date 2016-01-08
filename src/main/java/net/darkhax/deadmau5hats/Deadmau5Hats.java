@@ -34,22 +34,20 @@ public class Deadmau5Hats {
         
         item = new ItemDeadmau5Helmet();
         GameRegistry.registerItem(item, "deadmau5hat");
-    }
-    
-    @EventHandler
-    public void init (FMLInitializationEvent event) {
-        
+
         if (event.getSide().equals(Side.CLIENT)) {
-            
             List<ModelResourceLocation> models = new ArrayList<ModelResourceLocation>();
             
             for (String varient : ItemDeadmau5Helmet.variants)
                 models.add(new ModelResourceLocation("deadmau5hats:deadmau5hat_" + varient, "inventory"));
-                
-            // ModelLoader.registerItemVariants(item, models.toArray(new
-            // ModelResourceLocation[models.size()]));
-            ModelLoader.registerItemVariants(item, new ModelResourceLocation("deadmau5hats:deadmau5hat_Black"));
+
+            ModelLoader.registerItemVariants(item, models.toArray(new ModelResourceLocation[models.size()]));
             ModelLoader.setCustomMeshDefinition(item, new Deadmau5MeshDefinition());
         }
+    }
+    
+    @EventHandler
+    public void init (FMLInitializationEvent event) {
+
     }
 }
