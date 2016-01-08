@@ -1,6 +1,0 @@
-{
-	"parent": "deadmau5hats:item/default",
-	"textures": {
-		"layer0": "deadmau5hats:items/deadmau5hat_Green"
-	}
-}
