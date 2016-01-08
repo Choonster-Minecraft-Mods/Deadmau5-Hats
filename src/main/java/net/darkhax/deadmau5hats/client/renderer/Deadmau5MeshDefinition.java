@@ -10,7 +10,7 @@ public class Deadmau5MeshDefinition implements ItemMeshDefinition {
     @Override
     public ModelResourceLocation getModelLocation (ItemStack stack) {
         
-        return new ModelResourceLocation("deadmau5hats:deadmau5hat_" + ItemDeadmau5Helmet.getVarient(stack));
+        return new ModelResourceLocation("deadmau5hats:deadmau5hat_" + ItemDeadmau5Helmet.getVarient(stack), "inventory");
     }
     
 }
